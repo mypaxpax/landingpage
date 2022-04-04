@@ -5,13 +5,11 @@ body {
     display: flex;
     flex-direction: column;
     min-width: 100vh;
-    margin: 0 220px;
 }
 
 .header,
 .footer {
     display: flex;
-    padding: 0 220px;
     justify-content: space-between;
     align-items: center;
     color: #f9faf8;
@@ -36,16 +34,14 @@ body {
 }
 
 .hero {
-    padding: 0 220px;
     display: flex;
     align-items: center;
-    justify-content: space-between;
+    justify-content: space-around;
     background-color: #1F2937;
     border: solid 2px red;
 }
 
 .hero-left {
-
     color:#f9faf8;
     font-size: 48px;
     font-weight: bolder;
