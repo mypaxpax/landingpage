@@ -2,10 +2,8 @@
 
 body {
     font-family: Roboto, sans-serif;
-    display: flex;
-    flex-direction: column;
-    justify-content: space-between;
-    min-width: 100vh;
+    margin: 0;
+    padding: 0;
 }
 
 img {
@@ -28,11 +26,22 @@ img {
     background: #1F2937;
 }
 
-.header-links {
+.header-nav {
+    display: flex;
+    gap: 1rem;
     border: solid 2px red;
     font-size: 18px;
 
 }
+
+.header-nav li, a:hover, a:link, a:visited {
+    margin: 0;
+    padding: 0;
+    color: #E5E7EB;
+    text-decoration: none;
+    list-style: none;
+}
+
 
 .header-logo {
     font-size: 24px;
@@ -85,7 +94,7 @@ img {
 
 .quotebox {
     display: flex;
-    padding: 50px;
+
     background-color: #E5E7EB;
     border: solid 2px red;
 
@@ -107,7 +116,7 @@ img {
 
 .callbox {
     display: flex;
-    padding: 50px;
+
     justify-content: center;
     background-color: white;
     border: solid 2px red;
@@ -120,15 +129,6 @@ img {
     border-radius: 10px;
     background: #3882f6;
     padding: 10px;
-}
-
-ul, a:hover, a:link, a:visited {
-    display: flex;
-    gap: 20px;
-    padding: 0px;
-    color: #E5E7EB;
-    text-decoration: none;
-    list-style: none;
 }
 
 button {
