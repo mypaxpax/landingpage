@@ -3,11 +3,13 @@
 * {
     margin: 0;
     padding: 0;
-    border: 1px solid red;
+
 }
 
 body {
     font-family: Roboto, sans-serif;
+    padding: 0 12em;
+    background: #000000;
 }
 
 header {
@@ -16,14 +18,10 @@ header {
 }
 
 main {
-    padding: 1em 13em;
+    padding: 4em 13em;
     background-color: #ffffff;
 }
 
-article {
-    padding: 1em 13em;
-    background-color: #ffffff;
-}
 .navigation {
     display: flex;
     justify-content: space-between;
@@ -77,13 +75,13 @@ article {
 }
 
 .infobox  {
-
     display: flex;
     justify-content: center;
     align-items: center;
     flex-wrap: wrap;
     background-color: white;
     gap: 2em;
+    padding: 3em 0em;
 }
 
 .infopics {
@@ -111,12 +109,56 @@ article {
     padding: 7em 13em;
 }
 
+.quote-author {
+    align-self: flex-end;
+    font-size: 15px;
+    font-weight: bold;
+}
+
 .contact {
     display: flex;
     justify-content: center;
     align-items: center;
     background-color: #ffffff;
+    padding: 7em 13em;
 
+}
+
+.bluebox {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color:#3882f6;
+    border-radius: 10px;
+    height: 110px;
+    width: 100%;
+}
+
+
+.bluebox .left {
+    display: flex;
+    flex-direction: column;
+    
+
+}
+
+.bluebox .right {
+    display: flex;
+    justify-content: center;
+    width: 50%;
+    flex-shrink: 0;
+
+}
+
+.contactbutton  {
+    padding: 5px 15px;
+    border-radius: 7px;
+    border-color: white;
+    border-style:groove;
+    color: white;
+    font-weight: bold;
+    font-size: 15px;
+    background: #3882f6;
 }
 
 p.quote-text {
@@ -126,11 +168,6 @@ p.quote-text {
     color:#1f2937;
 }
 
-.quote-author {
-    align-self: flex-end;
-    font-size: 15px;
-    font-weight: bold;
-}
 
 p.logo {
     font-size: 24px;
@@ -159,6 +196,11 @@ p.information {
     color: #1f2937;
 }
 
+h3.big {
+    font-size: 12px;
+    color:#E5E7EB;
+
+}
 
 
 .footer {
@@ -167,6 +209,7 @@ p.information {
     align-items: center;
     background-color: #1F2937;
     color: #f9faf8;
+    padding: 3em 17em;
 
 }
 
@@ -188,7 +231,6 @@ p.information {
     display:flex;
     padding: 5px 15px;
     border-radius: 7px;
-    border-color: white;
     border-style:groove;
     color: white;
     font-weight: bold;
