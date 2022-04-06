@@ -1,12 +1,124 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
-
-body {
-    font-family: Roboto, sans-serif;
+* {
     margin: 0;
     padding: 0;
 }
 
-img {
+body {
+    font-family: Roboto, sans-serif;
+}
+
+header {
+    background-color: #1f2937;
+    padding: 1em 13em;
+}
+
+.hero-img{
+    width: 200px;
+    height: 200px;
+}
+
+
+.navigation {
+    display: flex;
+    justify-content: space-between;
+    background-color: #1F2937;
+    border: 2px solid red;
+}
+
+.hero .left {
+    display: flex;
+    flex-direction: column;
+}
+
+.left {
+    margin: 0;
+    padding: 0;
+
+}
+
+.right {
+    margin: 0;
+    padding: 0;
+
+
+}
+
+.hero {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 2em;
+    padding: 7em 0;
+    border: 2px solid red;
+
+}
+
+
+p.logo {
+    font-size: 24px;
+    font-weight: 900;
+    color: #F9FaF8;
+    border: 2px solid red;
+}
+
+h1.hero-bigtext {
+    font-size: 48px;
+    font-weight: 900;
+    color: #F9FaF8;
+    border: 2px solid red;
+}
+
+p.hero-undertext {
+    font-size: 18px;
+    color: #E5E7EB;
+    border: 2px solid red;
+}
+
+.footer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #1F2937;
+    color: #f9faf8;
+    border: 2px solid red;
+}
+
+.nav-links {
+    display: flex;
+    gap: 1em;
+    list-style: none;
+    border: 2px solid red;
+}
+
+.nav-links li a:hover,a:visited, a:link {
+    color: green;
+    text-decoration: none;
+    font-size: 18px;
+    color: #E5E7EB;
+}
+
+button  {
+    align-self: center;
+    padding: 5px 50px;
+    border-radius: 10px;
+    border-color: white;
+    border-style:groove;
+    color: white;
+    font-weight: bold;
+    font-size: 15px;
+    background: #3882f6;
+ 
+}
+
+
+
+
+
+
+
+
+/* img {
     max-width: 200px;
     max-height: 200px;
 }
@@ -131,15 +243,4 @@ img {
     padding: 10px;
 }
 
-button {
-    align-self: center;
-    padding: 5px 50px;
-    border-radius: 10px;
-    border-color: white;
-    border-style:groove;
-    color: white;
-    font-weight: bold;
-    font-size: 15px;
-    background: #3882f6;
- 
-}
+*/
