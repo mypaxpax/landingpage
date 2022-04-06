@@ -1,7 +1,9 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
 * {
     margin: 0;
     padding: 0;
+    border: 1px solid red;
 }
 
 body {
@@ -13,23 +15,39 @@ header {
     padding: 1em 13em;
 }
 
-.hero-img{
-    width: 200px;
-    height: 200px;
+main {
+    padding: 1em 13em;
+    background-color: #ffffff;
 }
-
 
 .navigation {
     display: flex;
     justify-content: space-between;
     background-color: #1F2937;
-    border: 2px solid red;
 }
 
 .hero .left {
     display: flex;
     flex-direction: column;
+    align-items: flex-start;
 }
+
+.hero .right {
+    width: 50%;
+    flex-shrink: 0;
+    
+
+}
+
+.heroimg {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: slategray;
+    height: 215px;
+
+}
+
 
 .left {
     margin: 0;
@@ -50,30 +68,54 @@ header {
     align-items: center;
     gap: 2em;
     padding: 7em 0;
-    border: 2px solid red;
+
 
 }
 
+.infobox  {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    background-color: white;
+    gap: 2em;
+}
+
+.infopics {
+    background-color: white;
+    border: 2px solid blue;
+    border-radius: 20%;
+    text-align: center;
+    width: 150px;
+    height: 150px;
+}
 
 p.logo {
     font-size: 24px;
     font-weight: 900;
     color: #F9FaF8;
-    border: 2px solid red;
+
 }
 
-h1.hero-bigtext {
+h1.hero-maintext {
     font-size: 48px;
     font-weight: 900;
     color: #F9FaF8;
-    border: 2px solid red;
+
 }
 
-p.hero-undertext {
+p.hero-secondary {
     font-size: 18px;
     color: #E5E7EB;
-    border: 2px solid red;
+
 }
+
+p.information {
+    font-size: 36px;
+    font-weight: 900;
+    text-align: center;
+    color: #1f2937;
+}
+
 
 .footer {
     display: flex;
@@ -81,14 +123,14 @@ p.hero-undertext {
     align-items: center;
     background-color: #1F2937;
     color: #f9faf8;
-    border: 2px solid red;
+
 }
 
 .nav-links {
     display: flex;
     gap: 1em;
     list-style: none;
-    border: 2px solid red;
+
 }
 
 .nav-links li a:hover,a:visited, a:link {
@@ -98,25 +140,22 @@ p.hero-undertext {
     color: #E5E7EB;
 }
 
-button  {
-    align-self: center;
-    padding: 5px 50px;
-    border-radius: 10px;
+.herobutton  {
+    display:flex;
+    padding: 5px 15px;
+    border-radius: 7px;
     border-color: white;
     border-style:groove;
     color: white;
     font-weight: bold;
     font-size: 15px;
     background: #3882f6;
- 
 }
 
-
-
-
-
-
-
+img {
+    max-width: 150px;
+    max-height: 150px;
+}
 
 /* img {
     max-width: 200px;
