@@ -20,6 +20,10 @@ main {
     background-color: #ffffff;
 }
 
+article {
+    padding: 1em 13em;
+    background-color: #ffffff;
+}
 .navigation {
     display: flex;
     justify-content: space-between;
@@ -73,20 +77,59 @@ main {
 }
 
 .infobox  {
+
     display: flex;
-    flex-wrap: wrap;
     justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
     background-color: white;
     gap: 2em;
 }
 
 .infopics {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    max-width: 150px;
+}
+
+.placeholderpic {
     background-color: white;
     border: 2px solid blue;
-    border-radius: 20%;
-    text-align: center;
+    border-radius: 20px;
     width: 150px;
     height: 150px;
+}
+
+.quotebox {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color:#E5E7EB;
+    padding: 7em 13em;
+}
+
+.contact {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #ffffff;
+
+}
+
+p.quote-text {
+    font-size: 36px;
+    font-weight: 100;
+    font-style: italic;
+    color:#1f2937;
+}
+
+.quote-author {
+    align-self: flex-end;
+    font-size: 15px;
+    font-weight: bold;
 }
 
 p.logo {
@@ -115,6 +158,7 @@ p.information {
     text-align: center;
     color: #1f2937;
 }
+
 
 
 .footer {
@@ -251,19 +295,6 @@ img {
 
 }
 
-.quote-text {
-    font-size: 20px;
-    font-weight: 100;
-    font-style: italic;
-    color:#1f2937;
-}
-
-.quote-author {
-    display: flex;
-    justify-content: flex-end;
-    font-size: 15px;
-    font-weight: bold;
-}
 
 .callbox {
     display: flex;
